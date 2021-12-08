@@ -39,14 +39,24 @@ body {
     }
   }
 
-  h1{
-      text-align: center;
-
+  h1 {
+    text-align: center;
   }
 
-  p{
-      text-align: center;
-      font-size: 12px;
+  p {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .row{
+      display: flex;
+      background-color: $paleBlue;
+        border: 0 solid $paleBlue;
+        border-radius: 8px;
+        padding: 10px;
+        margin: 20px;
+
+
   }
 }
 
