@@ -55,8 +55,8 @@ body {
   border-radius: 8px;
   background-color: #3829e0;
   height: 40px;
-  -webkit-box-shadow: -43px 28px 42px 0px #e0e8ff;
-          box-shadow: -43px 28px 42px 0px #e0e8ff;
+  -webkit-box-shadow: -17px 22px 21px 3px #e0e8ff;
+          box-shadow: -17px 22px 21px 3px #e0e8ff;
 }
 
 .container .card .btn-payment:hover {
