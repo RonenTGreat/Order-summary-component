@@ -20,21 +20,20 @@ body {
 }
 
 .container {
-  max-width: 350px;
+  max-width: 290px;
   margin: 0 auto;
   margin-top: 15vh;
 
   .card {
     background-color: $veryPaleBlue;
-    border: 3px solid $veryPaleBlue;
+    border: 0 solid $veryPaleBlue;
     border-radius: 12px;
 
     .header-img {
       border-radius: 12px 12px 0 0;
       width: 100%;
       height: 100%;
-      object-fit: cover;
-      padding: 2px;
+      padding: 0;
     }
   }
 }
