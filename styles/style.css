@@ -57,12 +57,14 @@ body {
   height: 40px;
   -webkit-box-shadow: -17px 22px 21px 3px #e0e8ff;
           box-shadow: -17px 22px 21px 3px #e0e8ff;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out 0s;
+  transition: opacity 1s ease-in-out 0s;
 }
 
 .container .card .btn-payment:hover {
   cursor: pointer;
-  background-color: #7280a7;
-  border: 3px solid #7280a7;
+  opacity: 0.8;
 }
 
 .container h1 {

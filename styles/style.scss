@@ -37,11 +37,11 @@ body {
       padding: 0;
     }
 
-    .btn-cancel{
+    .btn-cancel {
       text-align: center;
       padding-bottom: 15px;
 
-      &:hover{
+      &:hover {
         cursor: pointer;
         color: $desaturatedBlue;
         font-weight: 600;
@@ -59,11 +59,12 @@ body {
       background-color: $brightBlue;
       height: 40px;
       box-shadow: -17px 22px 21px 3px $paleBlue;
+      opacity: 1;
+      transition: opacity 1s ease-in-out 0s;
 
       &:hover {
         cursor: pointer;
-        background-color: $desaturatedBlue;
-        border: 3px solid $desaturatedBlue;
+        opacity: 0.8;
       }
     }
   }
