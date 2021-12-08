@@ -18,12 +18,12 @@ body {
 .container {
   max-width: 300px;
   margin: 0 auto;
-  margin-top: 30vh;
+  margin-top: 20vh;
 }
 
 .container .card {
   background-color: #f5f7ff;
-  border: 0 solid #f5f7ff;
+  border: 0 solid #e0e8ff;
   border-radius: 12px;
 }
 
@@ -32,6 +32,37 @@ body {
   width: 100%;
   height: 100%;
   padding: 0;
+}
+
+.container .card .btn-cancel {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.container .card .btn-cancel:hover {
+  cursor: pointer;
+  color: #7280a7;
+  font-weight: 600;
+}
+
+.container .card .btn-payment {
+  display: block;
+  color: #f5f7ff;
+  padding-top: 5px;
+  margin: 25px;
+  text-align: center;
+  border: 3px solid #3829e0;
+  border-radius: 8px;
+  background-color: #3829e0;
+  height: 40px;
+  -webkit-box-shadow: -43px 28px 42px 0px #e0e8ff;
+          box-shadow: -43px 28px 42px 0px #e0e8ff;
+}
+
+.container .card .btn-payment:hover {
+  cursor: pointer;
+  background-color: #7280a7;
+  border: 3px solid #7280a7;
 }
 
 .container h1 {
@@ -47,16 +78,45 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #e0e8ff;
-  border: 0 solid #e0e8ff;
+  background-color: #ebeef7;
+  border: 1px solid #e0e8ff;
   border-radius: 8px;
   padding: 10px;
   margin: 20px;
+  font-size: 14px;
+}
+
+.container .row .plan {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row .plan i {
+  padding-right: 10px;
+}
+
+.container .row .plan span {
+  padding-top: 5px;
+}
+
+.container .row .plan span strong {
+  margin-bottom: 10px;
+}
+
+.container .row a {
+  padding-top: 10px;
+  color: #3829e0;
+}
+
+.container .row a:hover {
+  text-decoration: none;
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-top: 20px;
 }
 
 .attribution a {

@@ -24,18 +24,47 @@ body {
 .container {
   max-width: 300px;
   margin: 0 auto;
-  margin-top: 30vh;
+  margin-top: 20vh;
 
   .card {
     background-color: $veryPaleBlue;
-    border: 0 solid $veryPaleBlue;
+    border: 0 solid $paleBlue;
     border-radius: 12px;
-
     .header-img {
       border-radius: 12px 12px 0 0;
       width: 100%;
       height: 100%;
       padding: 0;
+    }
+
+    .btn-cancel{
+      text-align: center;
+      padding-bottom: 15px;
+
+      &:hover{
+        cursor: pointer;
+        color: $desaturatedBlue;
+        font-weight: 600;
+      }
+    }
+
+    .btn-payment {
+      display: block;
+      color: $veryPaleBlue;
+      padding-top: 5px;
+      margin: 25px;
+      text-align: center;
+      border: 3px solid $brightBlue;
+      border-radius: 8px;
+      background-color: $brightBlue;
+      height: 40px;
+      box-shadow: -43px 28px 42px 0px $paleBlue;
+
+      &:hover {
+        cursor: pointer;
+        background-color: $desaturatedBlue;
+        border: 3px solid $desaturatedBlue;
+      }
     }
   }
 
@@ -48,21 +77,44 @@ body {
     font-size: 12px;
   }
 
-  .row{
+  .row {
+    display: flex;
+    background-color: #ebeef7;
+    border: 1px solid $paleBlue;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px;
+    font-size: 14px;
+
+    .plan {
       display: flex;
-      background-color: $paleBlue;
-        border: 0 solid $paleBlue;
-        border-radius: 8px;
-        padding: 10px;
-        margin: 20px;
 
+      i {
+        padding-right: 10px;
+      }
 
+      span {
+        strong {
+          margin-bottom: 10px;
+        }
+        padding-top: 5px;
+      }
+    }
+
+    a {
+      padding-top: 10px;
+      color: $brightBlue;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
+  padding-top: 20px;
 
   a {
     color: hsl(228, 45%, 44%);
