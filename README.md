@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/flexbox-sass-c3zGTOr7j](https://www.frontendmentor.io/solutions/flexbox-sass-c3zGTOr7j)
 - Live Site URL: [https://myordercomponent.netlify.app/](https://myordercomponent.netlify.app/)
 
 ## My process
