@@ -48,13 +48,13 @@ body {
 .container .card .btn-payment {
   display: block;
   color: #f5f7ff;
-  padding-top: 5px;
+  padding-top: 7px;
   margin: 25px;
   text-align: center;
   border: 3px solid #3829e0;
   border-radius: 8px;
   background-color: #3829e0;
-  height: 40px;
+  height: 45px;
   -webkit-box-shadow: -17px 22px 21px 3px #e0e8ff;
           box-shadow: -17px 22px 21px 3px #e0e8ff;
   opacity: 1;
@@ -64,7 +64,7 @@ body {
 
 .container .card .btn-payment:hover {
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .container h1 {
@@ -81,7 +81,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-color: #ebeef7;
-  border: 1px solid #e0e8ff;
+  border: 0 solid #e0e8ff;
   border-radius: 8px;
   padding: 10px;
   margin: 20px;

@@ -51,20 +51,20 @@ body {
     .btn-payment {
       display: block;
       color: $veryPaleBlue;
-      padding-top: 5px;
+      padding-top: 7px;
       margin: 25px;
       text-align: center;
       border: 3px solid $brightBlue;
       border-radius: 8px;
       background-color: $brightBlue;
-      height: 40px;
+      height: 45px;
       box-shadow: -17px 22px 21px 3px $paleBlue;
       opacity: 1;
       transition: opacity 1s ease-in-out 0s;
 
       &:hover {
         cursor: pointer;
-        opacity: 0.8;
+        opacity: 0.7;
       }
     }
   }
@@ -81,7 +81,7 @@ body {
   .row {
     display: flex;
     background-color: #ebeef7;
-    border: 1px solid $paleBlue;
+    border: 0 solid $paleBlue;
     border-radius: 8px;
     padding: 10px;
     margin: 20px;
